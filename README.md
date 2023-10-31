@@ -499,3 +499,6 @@ For YOLOv5 bug reports and feature requests please visit [GitHub Issues](https:/
 </div>
 
 [tta]: https://docs.ultralytics.com/yolov5/tutorials/test_time_augmentation
+
+
+`python3 train.py --data ../datasets/yolo.yaml --epochs 300 --weights yolov5s.pt --cfg yolov5s.yaml --batch-size 64 --img 640 --rect`
